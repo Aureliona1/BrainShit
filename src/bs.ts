@@ -2,12 +2,12 @@
 import { clog, concatTypedArrays } from "jsr:@aurellis/helpers@1.4.2";
 
 function help() {
-	clog(`BS version: 1.0.0`);
+	clog(`BS version: 1.0.1`);
 	clog('Command usage "brainshit <script.bs> <mode>"', "Error");
 	clog("script.bs is your bs script file.");
 	clog("mode determines the way that your script runs, modes are:");
 	clog("	tokenise: print back your script without comments and whitespace");
-	clog("	debug: run your script and log ech operation (except script-based logging)");
+	clog("	debug: run your script and log each operation (except script-based logging)");
 	clog("	quiet: run the script normally");
 }
 
