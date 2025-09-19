@@ -1,8 +1,8 @@
-import { clog, concatTypedArrays } from "@aurellis/helpers";
+// deno-lint-ignore no-import-prefix
+import { clog, concatTypedArrays } from "jsr:@aurellis/helpers@1.4.2";
 
 function help() {
-	clog('Error, command usage "interpreter <script.bs> mode"');
-	clog("interperter is whatever you named the interpreter program.");
+	clog('Error, command usage "brainshit <script.bs> <mode>"');
 	clog("script.bs is your bs script file.");
 	clog("mode determines the way that your script runs, modes are:");
 	clog("	tokenise: print back your script without comments and whitespace");
