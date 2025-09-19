@@ -2,6 +2,7 @@
 import { clog, concatTypedArrays } from "jsr:@aurellis/helpers@1.4.2";
 
 function help() {
+	clog(`BS version: 1.0.0`);
 	clog('Command usage "brainshit <script.bs> <mode>"', "Error");
 	clog("script.bs is your bs script file.");
 	clog("mode determines the way that your script runs, modes are:");
