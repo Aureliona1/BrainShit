@@ -15,3 +15,9 @@ deno install -f -g -n brainshit -A https://raw.githubusercontent.com/Aureliona1/
 ```
 
 Then run the interpreter in any shell with `brainshit <script> quiet`.
+
+Uninstall the insterpreter with:
+
+```cmd
+deno uninstall -g brainshit
+```
