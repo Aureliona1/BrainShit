@@ -16,7 +16,7 @@ deno install -r -f -g -n brainshit -A https://raw.githubusercontent.com/Aurelion
 
 Then run the interpreter in any shell with `brainshit <script> quiet`.
 
-Uninstall the insterpreter with:
+Uninstall the interpreter with:
 
 ```cmd
 deno uninstall -g brainshit
