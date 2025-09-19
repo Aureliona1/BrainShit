@@ -11,7 +11,7 @@ The BS interpreter runs on [Deno](deno.land), so ensure that you have it install
 With deno, you can install the interpreter with:
 
 ```cmd
-deno install -g -n brainshit -A https://raw.githubusercontent.com/Aureliona1/BrainShit/refs/heads/main/src/bs.ts
+deno install -f -g -n brainshit -A https://raw.githubusercontent.com/Aureliona1/BrainShit/refs/heads/main/src/bs.ts
 ```
 
 Then run the interpreter in any shell with `brainshit <script> quiet`.
