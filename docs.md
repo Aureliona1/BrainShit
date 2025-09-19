@@ -43,7 +43,7 @@ So, a loop that prints the numbers from 0 - 10 would look like.
 10$>0$<^>-gt[
 	%1+$<^>-
 	// the value in the register will be 10 - i, the code goes back to the condition.
-]
+]0|
 // done
 ```
 
@@ -55,5 +55,5 @@ It is best practice to put a | at the end of your code anyway, to specify that i
 ## Hello world
 
 ```bs
-72$>101$>108$>108$>111$>32$>87$>111$>114$>108$>100$>33$>0#12!
+72$>101$>108$>108$>111$>32$>87$>111$>114$>108$>100$>33$>0#12!0|
 ```

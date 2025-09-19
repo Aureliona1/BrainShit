@@ -14,4 +14,4 @@ With deno, you can install the interpreter with:
 deno install -g -n brainshit -A https://raw.githubusercontent.com/Aureliona1/BrainShit/refs/heads/main/src/bs.ts
 ```
 
-Then run the interpreter in any shell with `brainshit`.
+Then run the interpreter in any shell with `brainshit <script> quiet`.
